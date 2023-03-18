@@ -4,7 +4,7 @@ import SearchC from './context/SearchContext'
 
 
 const ResCards = (props) => {
-  const url = 'https://devshop.pythonanywhere.com/'
+  const url = 'https://devshop.pythonanywhere.com'
 
     const [cards,setCards] = useState([])
     const [loading,setloading] = useState(false)
