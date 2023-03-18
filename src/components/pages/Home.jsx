@@ -16,7 +16,7 @@ import RondomImg  from './RondomImg'
 
 const Home = () => {
 
-    const url = 'https://devshop.pythonanywhere.com/'
+    const url = 'https://devshop.pythonanywhere.com'
     
     const [ai_sample_data,setai_sample_data] = useState([])
     const [ml_sample_data,setml_sample_data] = useState([])
