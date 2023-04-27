@@ -25,9 +25,7 @@ const Home = () => {
     const [countDevs,setcountDevs] = useState({})
     
     
-    useEffect(()=>{
-    window.location.reload()
-    },[])
+  
     
     // for ai
     async function ai_sample(){
