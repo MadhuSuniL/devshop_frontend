@@ -24,6 +24,11 @@ const Home = () => {
     const [web_sample_data,setweb_sample_data] = useState([])
     const [countDevs,setcountDevs] = useState({})
     
+    
+    useEffect(()=>{
+    window.location.reload()
+    },[])
+    
     // for ai
     async function ai_sample(){
         await fetch(`${url}/ai_sample`)
